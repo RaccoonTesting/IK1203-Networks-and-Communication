@@ -1,0 +1,5 @@
+Comment: The "available" method is not a good way to check for
+end of connection. It just tells if there is data now; there
+can be more data later.
+
+Status: Not fixed!
